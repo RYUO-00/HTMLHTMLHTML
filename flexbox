@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex and Grid Example</title>
+        <style>
+            body{
+                font-family: Arial;
+                margin:0 ;
+            }
+            header{
+                background-color: skyblue;
+                padding:15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            grid-container{
+                display: grid;
+                grid-template-columns:1fr 2fr 1fr;
+                gap: 10px;
+                padding: 10px;
+
+            }
+
+            .box{
+                background-color: lightgray;
+                  padding: 20px;
+                  text-align: center;
+            }
+            footer{
+                background-color: lightgreen;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+
+            }
+        </style>
+
+    </head>
+    <header>
+        <h2>
+            My Web Layout using Flexbox and Grid
+        </h2>
+    </header>
+    <div class="grid-container">
+        <div class="box">Left Panel</div>
+        <div class="box">Main Content Area</div>
+        <div class="box">Right Panel</div>
+    </div>
+    <footer>
+        <p>
+            Footer Section
+        </p>
+    </footer>
+</body>
+    
+</html>
