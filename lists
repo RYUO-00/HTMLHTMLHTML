@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Different Types of Lists</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Different Types of Lists</h2>
+
+    <table>
+        <tr>
+            <th>Ordered List</th>
+            <th>Unordered List</th>
+            <th>Definition List</th>
+            <th>Nested List</th>
+        </tr>
+
+        <tr>
+            <!-- Ordered List -->
+            <td>
+                <ol>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Cherry</li>
+                </ol>
+            </td>
+
+            <!-- Unordered List -->
+            <td>
+                <ul>
+                    <li>Dog</li>
+                    <li>Cat</li>
+                    <li>Parrot</li>
+                </ul>
+            </td>
+
+            <!-- Definition List -->
+            <td>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Hyper Text Markup Language</dd>
+                    <dt>CSS</dt>
+                    <dd>Used for styling web pages</dd>
+                </dl>
+            </td>
+
+            <!-- Nested List -->
+            <td>
+                <ul>
+                    <li>Fruits
+                        <ul>
+                            <li>Apple</li>
+                            <li>Mango</li>
+                        </ul>
+                    </li>
+                    <li>Vegetables
+                        <ul>
+                            <li>Carrot</li>
+                            <li>Tomato</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
