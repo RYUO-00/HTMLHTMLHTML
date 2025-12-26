@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List and table Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white
+        }
+        td {
+            background-color: #f2f2f2;
+            text-align: center;
+        }     
+    </style>
+</head>    
+<body>
+    <h2>Orered List</h2>
+    <ol>
+        <li>Apple</li>
+        <li>Banana 2</li>
+        <li>Cherry</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Dog</li>
+        <li>Cat</li>
+        <li>Parrot</li>
+    </ul>
+
+    <h2>Definition List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <h2>Sample Table</h2>
+    <table>
+        <tr>
+            <th> Nmae</th>
+            <th> Age</th>
+            <th> City</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Sara</td>
+            <td>25</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>35</td>
+            <td>Paris</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
