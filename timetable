@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Timetable</title>
+    </head>
+    <body bgcolor="">
+        <h2 align="center">Sahyadri college of engineering and Management</h2>
+        <table border="10" cellspacing="0"align="center">
+            <tr>
+                <td align="center" height="50" width="100"><b>Time/Day</b></td>
+                <td align="center" height="50" width="100"><b>I<br>9:00-9:55</b></td>
+                <td align="center" height="50" width="100"><b>II<br>9:55-10:50</b></td>
+
+                <td rowspan="7"align="center" height="50" width="100" bgcolor="lightgreen">
+                    <h2>T<br>E<br>A<br><br>B<br>R<br>E<br>K</h2></td>
+                <td align="center" height="50" width="100"><b>III<br>11:10-12:05</b></td>
+                <td align="center" height="50" width="100"><b>IV<br>12:05-1:00</b></td>
+
+                <td rowspan="7"align="center" height="50" width="100" bgcolor="lightgreen">
+                    <h2>L<br>U<br>N<br><br>C<br>H<br><br>B<br>R<br>E<br>A<br>K</h2></td>   
+                <td align="center" height="50" width="100"><b>V<br>1:40-2:35</b></td>
+                <td align="center" height="50" width="100"><b>VI<br>2:35-3:30</b></td>
+                <td align="center" height="50" width="100"><b>VI<br>3:30-4:30</b></td>
+
+            </tr>       
+            <tr>
+                <td align="center" height="50" width="100"><b>Day1</b></td>
+                <td align="center"><b>DS</b></td>
+                <td align="center"><b>OS</b></td>
+                <td align="center"><b>DLDC</b></td>
+                <td align="center"><b>MATHS</b></td>
+                <td align="center"><b>DIP MATHS</b></td>
+                <td align="center"><b>UHV</b></td>
+                <td align="center"><b>FREE</b></td>
+
+            </tr>
+            <tr>
+                <td align="center" height="50" width="100"><b>Day2</b></td>
+                <td align="center"><b>OS</b></td>
+                <td align="center"><b>DLDC</b></td>
+                <td align="center"><b>DS</b></td>
+                <td align="center"><b>DIP MATHS</b></td>
+                <td align="center"><b>UHV</b></td>
+                <td align="center"><b>MATHS</b></td>
+                <td align="center"><b>MENTOR-MENTEE</b></td>
+            </tr>
+            <tr>
+                <td align="center" height="50" width="100"><b>Day3</b></td>
+                <td align="center"><b>DLDC</b></td>
+                <!-- Updated subjects to uppercase -->
+                <td align="center"><b>DS</b></td>
+                <td align="center"><b>OS</b></td>
+                <td align="center"><b>UHV</b></td>
+                <td align="center"><b>MATHS</b></td>
+                <td align="center"><b>DIP MATHS</b></td>
+                <td align="center"><b>LIB</b></td>
+            </tr>
+            <tr>       
+                <td align="center" height="50" width="100"><b>Day4</b></td>
+                <!-- Updated subjects to uppercase -->
+                <td align="center"><b>DS</b></td>
+                <td align="center"><b>OS</b></td>
+                <td align="center"><b>DLDC</b></td>
+                <td align="center"><b>MATHS</b></td>
+                <td align="center"><b>DIP MATHS</b></td>
+                <td align="center"><b>UHV</b></td>
+                <td align="center"><b>MENTOR-MENTEE</b></td>   
+            </tr>
+            <tr>       
+                <td align="center" height="50" width="1Gas"><b>Day5</b></td>
+                <!-- Updated subjects to uppercase -->
+                <td align="center"><b>OS</b></td>
+                <td align="center"><b>DLDC</b></td>
+                <td align="center"><b>DS</b></td>
+                <td align="center"><b>DIP MATHS</b></td>
+                <td align="center"><b>UHV</b></td>
+                <td align="center"><b>MATHS</b></td>
+                <td align="center"><b>LIB</b></td>       
+            </tr>
+            <tr>
+                <td align="center" height="50" width="100"><b>Day6</b></td>
+                <td align="center"><b>DLDC</b></td>
+                <!-- Updated subjects to uppercase -->
+                <td align="center"><b>DS</b></td>
+                <td align="center"><b>OS</b></td>
+                <td align="center"><b>UHV</b></td>
+                <td align="center"><b>MATHS</b></td>
+                <td align="center"><b>DIP MATHS</b></td>
+                <td align="center"><b>MENTOR-MENTEE</b></td>
+            </tr>
+        </table>    
+    </body>
+</html>
