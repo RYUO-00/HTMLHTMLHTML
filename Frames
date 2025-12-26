@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset = "UTF-8">
+    <title> Images Frame</title>
+</head>
+<body>
+    <h2> Images </h2>
+    <img src = "image1.jpeg" alt = "Image 1">
+    <img src = "image2.jpeg" alt = "Image 2">
+</body>    
+</html>
+
+
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset = "UTF-8">
+    <title> Videos Frame</title>
+</head>
+<body>
+    <h2> Videos </h2>
+    <video width = "320" height = "240" controls>
+    <source src =  "video1.mp4" type = "video/mp4">  your browser does not support the video tag.    
+    </video>
+</body>    
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset = "UTF-8">
+<title> webpage with frames </title>
+</head>
+<frameset cols ="50%,50%">
+<frame src = "images_frame.html" name = "images_frame">
+<frame src = "videos_frame.html" name = "videos_frame">
+<noframe>
+    <body>
+        <p>
+            this page requires a browser that supports frames
+        </p>
+    </body>
+</noframe>    
+</frameset>
+</html>
