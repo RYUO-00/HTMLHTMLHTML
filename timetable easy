@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Table</title>
+</head>
+
+<body>
+
+<h2 align="center">Sahyadri College of Engineering and Management</h2>
+
+<table border="1" align="center" cellpadding="10">
+
+    <tr>
+        <th>Day / Time</th>
+        <th>I<br>9:00–9:55</th>
+        <th>II<br>9:55–10:50</th>
+        <th rowspan="7">TEA<br>BREAK</th>
+        <th>III<br>11:10–12:05</th>
+        <th>IV<br>12:05–1:00</th>
+        <th rowspan="7">LUNCH<br>BREAK</th>
+        <th>V<br>1:40–2:35</th>
+        <th>VI<br>2:35–3:30</th>
+        <th>VII<br>3:30–4:30</th>
+    </tr>
+
+    <tr>
+        <td>Day 1</td>
+        <td>DS</td>
+        <td>OS</td>
+        <td>DLDC</td>
+        <td>MATHS</td>
+        <td>DIP MATHS</td>
+        <td>UHV</td>
+        <td>FREE</td>
+    </tr>
+
+    <tr>
+        <td>Day 2</td>
+        <td>OS</td>
+        <td>DLDC</td>
+        <td>DS</td>
+        <td>DIP MATHS</td>
+        <td>UHV</td>
+        <td>MATHS</td>
+        <td>MENTOR</td>
+    </tr>
+
+    <tr>
+        <td>Day 3</td>
+        <td>DLDC</td>
+        <td>DS</td>
+        <td>OS</td>
+        <td>UHV</td>
+        <td>MATHS</td>
+        <td>DIP MATHS</td>
+        <td>LIB</td>
+    </tr>
+
+    <tr>
+        <td>Day 4</td>
+        <td>DS</td>
+        <td>OS</td>
+        <td>DLDC</td>
+        <td>MATHS</td>
+        <td>DIP MATHS</td>
+        <td>UHV</td>
+        <td>MENTOR</td>
+    </tr>
+
+    <tr>
+        <td>Day 5</td>
+        <td>OS</td>
+        <td>DLDC</td>
+        <td>DS</td>
+        <td>DIP MATHS</td>
+        <td>UHV</td>
+        <td>MATHS</td>
+        <td>LIB</td>
+    </tr>
+
+    <tr>
+        <td>Day 6</td>
+        <td>DLDC</td>
+        <td>DS</td>
+        <td>OS</td>
+        <td>UHV</td>
+        <td>MATHS</td>
+        <td>DIP MATHS</td>
+        <td>MENTOR</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
